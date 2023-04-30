@@ -1,0 +1,247 @@
+/* Fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;1,600&display=swap');
+
+
+/* colour setup */
+:root {
+    --primary: #3155e7;
+    --primary-dark: #204506;
+    --black: #010101;
+    --gray-1: #788190;
+    --gray-2: #d3d4db;
+    --white: #FFFFFF;
+    --body: #fefefe;
+    --red-am : #ff4057;
+    --black-am : #282634
+}
+
+
+/* body  */
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: var(--body);
+}
+
+/* Progress bar setup */
+.my-progress-bar {
+    height: 0.3rem;
+    width: 0%;
+    position: fixed;
+    background-color: var(--red-am);
+}
+
+/* btn customization */
+.btn{
+    border-radius: 8px;
+}
+
+
+.btn-primary,
+.btn-outline-secondary {
+    padding: 12px 20px;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+}
+
+.btn-primary:hover{
+    background-color: var(--red-am);
+}
+
+
+.btn-outline-secondary{
+    border: 1px solid --gray-1;
+    color: var(--black);
+}
+
+.btn-outline-secondary:hover{
+    background-color: var(--gray-2);
+    border: 1px solid var(--gray-2);
+    color: var(--black);
+}
+
+.btn-outline-secondary:focus{
+    background-color: var(--gray-2);
+    border: 1px solid var(--gray-2);
+    color: var(--black);
+}
+
+
+
+
+/* navbar section */
+.navbar .btn-outline-secondary{
+    border: 1px solid --gray-2;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 16px;
+}
+
+.navbar{
+    padding: 32px 0;
+    /* position: absolute; */
+}
+
+.nav-link{
+    margin-left: 40px;
+    font-size: 16px;
+    color: var(--gray-1);
+}
+
+
+.navbar-nav .nav-link.active{
+    font-weight: bold;
+    color: var(--black);
+}
+
+.navbar-brand img{
+    width: 150px;
+}
+
+
+
+/* hero */
+
+section.hero {
+    padding: 48px 0;
+}
+
+section.hero .text{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 73px;
+    color: var(--black);
+}
+
+.buttons {
+    padding-top: 69px;
+}
+
+.buttons .btn{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* setup page 2 */
+
+section.setup {
+    padding: 100px 0;
+
+}
+
+section.setup .text-header h3 {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 48px;
+    color: var(--black);
+}
+
+
+section.setup .text-header p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: var(--gray-1);
+    padding: 27px 0;
+}
+
+section.setup .icons img{
+    padding: 20px;
+    margin: 10px;
+    width: 270px;
+    /* background-color: #8f94f8; */
+    background: linear-gradient(to right top, #8f94f8, #a49cf3, #b6a6ee, #c3b0ea, #cebbe6);
+    /* background: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+    animation: gradient 10s ease infinite;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+/* hover animation */
+
+section.setup .icons img:hover{
+    border-radius: 15px;
+    background-color: #6a71f0;
+    padding: 12px;
+}
+
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+section.setup .desc h5 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--black);
+}
+
+section.setup .desc p {
+    font-weight: 400;
+    font-size: 13px;
+    max-width: 284;
+    line-height: 22px;
+    color: var(--gray-1);
+    margin: 0 auto;
+}
+
+
+/* ----projects page setup---- */
+section.projects .text-information {
+    padding: 60px 0;
+}
+
+section.projects h4{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 48px;
+    color: var(--black);
+}
+
+section.projects h5{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--black);
+}
+
+
+section.projects p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--gray-1);
+    padding-top: 20px;
+}
+
+
+section.projects .info-1{
+    padding: 40px 0;
+}
+section.projects .info-2{
+    padding: 30px 0;
+}
+
+section.projects .info-2 img{
+    padding: 30px 0;
+}
+
+section.projects .project-2{
+    padding: 134px 0;
+    margin: 0 10px;
+}
