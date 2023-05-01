@@ -129,7 +129,7 @@ section.hero .text{
 /* setup page 2 */
 
 section.setup {
-    padding: 100px 0;
+    padding: 80px 0;
 
 }
 
@@ -244,4 +244,39 @@ section.projects .info-2 img{
 section.projects .project-2{
     padding: 134px 0;
     margin: 0 10px;
+}
+
+
+
+
+
+/* footer section code  */
+footer {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer ul {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+footer li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: var(--red-am)
 }
