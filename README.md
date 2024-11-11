@@ -1,21 +1,27 @@
 
-# Personal Portfolio Website -iamaayushmishra.github.io -
+<!-- <img src="https://github.com/iamAayushMishra.png" alt="Profile Picture" width="150" /> -->
 
-Welcome to my personal [portfolio website!](iamaayushmishra.github.io) This website serves as a showcase of my programming skills and projects. My name is Aayush Mishra, and I am a high school programmer with a passion for coding and building innovative projects.
+# Hi there! 👋 I'm Aayush Mishra
+
+I'm a student passionate about technology, currently learning and exploring different programming languages. 🌟
+
+## Languages
+
+<!-- Add logos of the languages you know/learning -->
+<img src="https://cdn.svgporn.com/logos/html-5.svg" alt="HTML5" width="30" /> <img src="https://cdn.svgporn.com/logos/css-3.svg" alt="CSS3" width="30" /> <img src="https://cdn.svgporn.com/logos/python.svg" alt="Python" width="30" /> <img src="https://cdn.svgporn.com/logos/c-plusplus.svg" alt="C++" width="30" />
+
+## GitHub Stats
+[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=iamAayushMishra&theme=dark)](https://github.com/DenverCoder1/github-readme-streak-stats)
 
 ## About Me
 
-I am a high school student currently studying in K.V.S. My interest in programming started in middle school when I took a computer science course. Since then, I have been teaching myself programming languages and building projects in my free time.
+- 🌍 Based in India 🇮🇳
+- 🎓 Studying and exploring the world of technology
+- 🚀 Passionate about coding, problem-solving, and learning new things
 
-### Projects
-
-On my website, you can find a collection of my programming projects. 
-
-## Technologies Used
-
-My portfolio website is built using HTML, CSS, and JavaScript. I used Bootstrap to create a responsive design and GitHub Pages to host the website.
-
-## That's all for now :D
+Feel free to connect with me or explore the projects I've been working on. Let's learn and grow together! 😄
 
 
-Thank you for visiting my website!
+[![GitHub](https://img.shields.io/badge/GitHub-iamAayushMishra-black?style=flat&logo=github)](https://github.com/iamAayushMishra)
+
+<!-- Add other badges or additional sections if desired -->
